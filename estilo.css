@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    background: black;
+    font-family: monospace;
+}
+
+
+.header{
+    border-bottom: 3px solid #4169E1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    display: flex;
+    background-color:;
+
+}
+
+.banner .container{
+    background-color:;
+}
+
+.header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 800;
+}
+
+
+.titulo{
+    color:#4169E1;
+    width: fit-content;
+    font-weight: 100;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    color: whitesmoke;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.banner{
+    background-image: url("https://raw.githubusercontent.com/julialima1999/Aula_HTML_CSS/main/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: whitesmoke;
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+    font-weight: bolder;
+}
+
+.banner .container{
+    font-size: 36px;
+    justify-content: center;
+}
+
+.banner .container p{
+    width: 10%;
+}
+
+.social {
+    background-color: #E6E6FA;
+    display: flex;
+    height: 500px;
+}
+
+.social .container .boxes .box img {
+    width: 100px;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.box h4{
+    color: #4169E1;
+    font-size: large;
+}
+
+.footer {
+    background-color: #4169E1;
+    height: 30px;
+    color: whitesmoke;
+    display: flex;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner .container .card {
+    background-color: #E6E6FA;
+    height: 420px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    color: #4B0082;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin: auto;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.card input {
+    border-color: #4B0082;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card button {
+    background-color: #4B0082;
+    height: 30px;
+    width: 90px;
+    font: 700 12px monospace;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .ent {
+    margin-top: 25px;
+}
+
+.card .cad{
+
+}
+
+.card h3 {
+    font-size: 15px;
+}
+
+.banner .container .cardCad {
+    background-color: #E6E6FA;
+    height: 510px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    color: #4B0082;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.cardCad h1 {
+    font-size: 30px;
+}
+
+.cardCad h4 {
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.form-box{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cardCad input {
+    border-color: #4B0082;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cardCad button {
+    background-color: #4B0082;
+    height: 30px;
+    width: 90px;
+    font: 700 12px monospace;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cardCad .ent {
+    margin-top: 25px;
+}
+
+.cardCad .cad{
+
+}
+
+.cardCad h3 {
+    font-size: 15px;
+}
